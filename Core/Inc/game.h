@@ -3,8 +3,8 @@
 
 #include <stdint.h>
 
-inline uint8_t game_jump;
-inline uint8_t game_over;
+uint8_t game_jump;
+uint8_t game_over;
 
 void game_init();
 void game_render();

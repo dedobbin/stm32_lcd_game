@@ -24,7 +24,8 @@ void LCD_send(uint8_t data, uint8_t flags)
     data_arr[2] = lo|flags|BACKLIGHT|PIN_EN;
     data_arr[3] = lo|flags|BACKLIGHT;
 
-    HAL_StatusTypeDef res = HAL_I2C_Master_Transmit(&hi2c1, LCD_addr, data_arr, sizeof(data_arr), HAL_MAX_DELAY);
+    //HAL_StatusTypeDef res = HAL_I2C_Master_Transmit(&hi2c1, LCD_addr, data_arr, sizeof(data_arr), HAL_MAX_DELAY);
+    HAL_I2C_Master_Transmit(&hi2c1, LCD_addr, data_arr, sizeof(data_arr), HAL_MAX_DELAY);
     HAL_Delay(5);
 }
 

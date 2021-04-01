@@ -1,5 +1,8 @@
 #include "game.h"
 #include "lcd.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 
 char game_level_data[16];
 int game_score = 0;
@@ -44,6 +47,7 @@ void game_player()
 	if (game_jump >= GAME_JUMP_LEN){
 		game_jump = 0;
 	}
+
 
 	if (!game_jump){
 		// Erase player at jump pos
