@@ -112,6 +112,7 @@ void game_init()
 
 	game_over = 0;
 	game_current_lives = GAME_START_LIVES;
+	game_score = 0;
 
 	LCD_home2();
 	memcpy(game_level_data, "________________", 16);
