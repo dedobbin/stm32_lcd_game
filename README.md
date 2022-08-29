@@ -16,8 +16,7 @@ Custom I2C logic for screen written in `Core/Src/lcd.c`.
 Custom game logic in `Core/Src/game.c`. 
 
 ## Circuit
-Couldn't easily find a proper component, so i used some pins in below schematic. Connections are very straight forward.  
-PA8 is D7 on NUCLEO-F446RE board.
+(PA8 is D7 on NUCLEO-F446RE board.)
 
 
 <br><br>
