@@ -16,6 +16,6 @@ Custom I2C logic for screen written in `Core/Src/lcd.c`.
 Custom game logic in `Core/Src/game.c`. 
 
 ## Circuit
-(PA8 is D7 on NUCLEO-F446RE board.)
-
 ![circuit](https://nop.koindozer.org/gh/stm32_lcd_game/stm32_lcd2.png)
+
+(PA8 is D7 on NUCLEO-F446RE board.)
